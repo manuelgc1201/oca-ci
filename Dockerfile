@@ -158,9 +158,9 @@ ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 ENV PIP_NO_PYTHON_VERSION_WARNING=1
 # Control addons discovery. INCLUDE and EXCLUDE are comma-separated list of
 # addons to include (default: all) and exclude (default: none)
-ENV ADDONS_DIR=.
+ENV ADDONS_DIR=estate
 ENV ADDONS_PATH=/opt/odoo/addons
-ENV INCLUDE=
+ENV INCLUDE=estate
 ENV EXCLUDE=
 ENV OCA_GIT_USER_NAME=oca-ci
 ENV OCA_GIT_USER_EMAIL=oca-ci@odoo-community.org
